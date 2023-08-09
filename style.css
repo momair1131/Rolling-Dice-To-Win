@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: bisque;
+  height: 100vh;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* flex-wrap: wrap; */
+}
+
+main {
+  width: 90%;
+  height: 100vh;
+  border: 2px solid gray;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  /* align-content: center; */
+}
+
+.player {
+  width: 50%;
+  height: 512px;
+  align-self: center;
+  flex-grow: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.player-0 {
+  border: 1px solid;
+}
+
+.player-1 {
+  border: 1px solid;
+}
+.dice-img {
+  width: 5rem;
+  height: 5rem;
+}
+
+.btn {
+  width: 5rem;
+  height: 5rem;
+  border: none;
+  margin: 10px;
+  padding: 10px;
+  background-color: burlywood;
+  color: beige;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dice-img {
+  position: absolute;
+  top: 35%;
+}
+
+.hidden {
+  display: none;
+}
+
+.player-active {
+  background-color: #b4b4b4;
+}
+
+.winner {
+  background-color: #ff0000;
+}
