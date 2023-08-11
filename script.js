@@ -22,12 +22,14 @@ dice.classList.add("hidden");
 function switchPlayer() {
   document.querySelector(`.player-${activePlayer}-score`).textContent = 0;
   currentScore = 0;
+  //document.getElementById("myDIV").style.transition = "all 2s";
 
   if (activePlayer === 0) {
     activePlayer = 1;
   } else activePlayer = 0;
 
   player1.classList.toggle("player-active");
+
   player2.classList.toggle("player-active");
 }
 
@@ -45,6 +47,10 @@ const reset = () => {
   activePlayer = 0;
   scores = [0, 0];
   currentScore = 0;
+};
+
+const confettiStart = () => {
+  setTimeout(function () {});
 };
 
 rollDiceBtn.addEventListener("click", () => {
@@ -75,6 +81,10 @@ holdBtn.addEventListener("click", () => {
       dice.classList.add("hidden");
 
       document.querySelector(`.player-${activePlayer}`).classList.add("winner");
+      document
+        .querySelector(`.player-${activePlayer}`)
+        .classList.remove("player-active");
+      document.querySelector(`.player-${activePlayer}-score`).textContent = 0;
     } else {
       switchPlayer();
     }
