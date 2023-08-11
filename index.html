@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dice Game</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js" defer></script>
-    <script src="confetti.js" defer></script>
   </head>
   <body>
     <main>
@@ -19,7 +17,7 @@
           <p class="current-score player-0-score">0</p>
         </div>
       </section>
-
+      <!-- <canvas class="canvas"></canvas> -->
       <section class="player-1 player">
         <h2>Player 2</h2>
         <p class="score score-2" id="score-1">24</p>
@@ -31,7 +29,14 @@
       <img src="images/dice-3.png" class="dice-img flex" alt="images" />
       <button class="reset btn">NEW GAME</button>
       <button class="roll-dice btn">ROLL DICE</button>
-      <button class="hold btn">HOLD</button>
+      <button class="hold btn">SAVE</button>
     </main>
+
+    <!-- <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"
+    ></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js" type="module"></script>
   </body>
 </html>

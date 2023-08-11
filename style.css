@@ -171,3 +171,12 @@ main {
     max-height: 81px;
   }
 }
+
+/* CANVAS */
+.canvas {
+  position: absolute;
+  width: 35%;
+  height: 512px;
+  border-radius: 20px;
+  /* border: 1px solid black; */
+}
