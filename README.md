@@ -24,6 +24,7 @@ ___
 4. Open the "index.html" file found within the aforementioned directory.
 
 This will allow you to access and play the game through your web browser.
+You can also play the game by clicking this link: https://momair1131.github.io/Rolling-Dice-To-Win/
 ___
 ## The game has been coded using the following technologies:
 
