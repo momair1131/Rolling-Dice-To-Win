@@ -35,3 +35,6 @@ ___
 
 These technologies were employed to create the game and enhance its functionality.
 
+## Acknowledgements
+I would like to thank my instructor, Tishana Trainor, for assigning me this challenging project.
+I would also like to express my gratitude to Kasper Kain and Manara Ali for their assistance in creating this project and helping me resolve any issues I encountered along the way.
